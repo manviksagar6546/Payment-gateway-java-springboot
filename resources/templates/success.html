@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Success</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            min-height:100vh;
+            background:linear-gradient(135deg,#0f172a,#1e3a8a,#2563eb);
+        }
+
+        .container{
+            width:90%;
+            max-width:500px;
+            background:#fff;
+            padding:40px;
+            border-radius:20px;
+            text-align:center;
+            box-shadow:0 15px 40px rgba(0,0,0,.25);
+            animation:fadeIn .8s ease;
+        }
+
+        @keyframes fadeIn{
+            from{
+                opacity:0;
+                transform:translateY(25px);
+            }
+            to{
+                opacity:1;
+                transform:translateY(0);
+            }
+        }
+
+        .checkmark{
+            width:90px;
+            height:90px;
+            margin:0 auto 20px;
+            border-radius:50%;
+            background:#22c55e;
+            color:#fff;
+            font-size:48px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            box-shadow:0 10px 25px rgba(34,197,94,.35);
+        }
+
+        h1{
+            color:#16a34a;
+            margin-bottom:15px;
+            font-size:34px;
+        }
+
+        p{
+            color:#555;
+            margin:10px 0;
+            line-height:1.6;
+            font-size:17px;
+        }
+
+        .status{
+            display:inline-block;
+            margin:20px 0;
+            padding:10px 22px;
+            background:#dcfce7;
+            color:#15803d;
+            border-radius:30px;
+            font-weight:bold;
+            letter-spacing:.5px;
+        }
+
+        .button{
+            display:inline-block;
+            margin-top:25px;
+            padding:14px 35px;
+            text-decoration:none;
+            background:#2563eb;
+            color:white;
+            border-radius:10px;
+            font-size:17px;
+            font-weight:600;
+            transition:.3s;
+        }
+
+        .button:hover{
+            background:#1d4ed8;
+            transform:translateY(-3px);
+            box-shadow:0 10px 20px rgba(37,99,235,.35);
+        }
+    </style>
+
+</head>
+<body>
+<div class="container">
+    <div class="checkmark">✓</div>
+
+    <h1>Payment Successful</h1>
+
+    <p>Thank you! Your payment has been completed successfully.</p>
+
+    <div class="status">
+        Order Status: CONFIRMED
+    </div>
+
+    <p>You will receive a confirmation email shortly.</p>
+
+    <a href="/" class="button">🏠 Back to Home</a>
+
+</div>
+</body>
+</html>
