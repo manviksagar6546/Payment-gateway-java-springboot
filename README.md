@@ -1,3 +1,6 @@
+Video demonstration - open if You want to check how it work: 
+<video src="https://github.com/user-attachments/assets/9e5982c9-ce85-47f7-996b-f66e51da0b27" controls width="800"></video>
+
 # 💳 Payment Gateway Integration using Spring Boot & Razorpay
 
 A full-stack payment gateway integration project built with **Spring Boot**, **Thymeleaf**, **MySQL**, and **Razorpay**. The application allows users to create payment orders, complete secure online payments, and automatically update the payment status in the database through Razorpay callbacks.
